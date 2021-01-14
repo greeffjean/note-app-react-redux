@@ -1,0 +1,87 @@
+/* Directory / Add Button  */
+.btn-enable {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.btn-disable {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.add-btn {
+    color: hsl(0, 0%, 100%);
+    margin: 10px;
+    font-size: 30px;
+    padding: 10px;
+}
+
+/* Directory */
+
+.directory-wrapper h3,
+p {
+    color: hsl(0deg, 0%, 79%);
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.directory-wrapper h3 {
+    margin-bottom: 3px;
+    width: 80%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.directory-wrapper p {
+    width: 80%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+
+.directory-wrapper {
+    width: 15vw;
+    height: 95vh;
+    background-color: hsl(220, 13%, 18%);
+}
+
+.directory-wrapper .note-item {
+    padding-bottom: 15px;
+    border-bottom: 1px solid hsl(218deg, 13%, 24%)
+}
+
+
+/* Create Note */
+
+.create-wrapper {
+    width: 85vw;
+    height: 95vh;
+    background-color: hsl(220deg, 13%, 24%);
+}
+
+.create-wrapper textarea {
+    word-wrap: break-word;
+    margin-left: 50px;
+    background: hsl(218, 13%, 24%);
+    border: none;
+    color: white;
+}
+
+
+.create-wrapper textarea:focus {
+    border: none;
+    outline: none;
+}
+
+.create-wrapper .input-heading {
+    width: 80%;
+    font-size: 35px;
+}
+
+.create-wrapper .input-description {
+    width: 60%;
+    font-size: 17px;
+    height: 70%;
+}
