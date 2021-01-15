@@ -22,7 +22,7 @@
 p {
     color: hsl(0deg, 0%, 79%);
     margin-top: 5px;
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
 .directory-wrapper h3 {
@@ -47,10 +47,20 @@ p {
     background-color: hsl(220, 13%, 18%);
 }
 
+.directory-wrapper .action-bar {
+    background: hsl(220, 12%, 29%);
+}
+
 .directory-wrapper .note-item {
-    padding-bottom: 15px;
+    padding: 15px 0;
     border-bottom: 1px solid hsl(218deg, 13%, 24%)
 }
+
+.directory-wrapper .note-item.default {
+    padding: 15px 0;
+    background: hsl(220, 12%, 29%);
+}
+
 
 
 /* Create Note */
@@ -83,5 +93,5 @@ p {
 .create-wrapper .input-description {
     width: 60%;
     font-size: 17px;
-    height: 70%;
+    height: 70vh;
 }

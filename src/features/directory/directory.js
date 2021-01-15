@@ -33,20 +33,23 @@ function Directory() {
             </div>
         });
 
-        return data.length ? data : null;
+        const defaultData = <div className="note-item default">
+            <p>Create Note</p>
+        </div>;
+
+        return data.length ? data : defaultData;
     }
 
     return (
         <div className="directory-wrapper">
 
+            <div className="action-bar">
             <FontAwesomeIcon
                 icon={faPlusCircle}
                 className={!heading || !description ? "add-btn btn-disable" : "add-btn btn-enable"}
                 onClick={() => handleSubmit()}
             />
-
-            <br />
-            <br />
+            </div>
 
             {fetchNotes()}
         </div>
